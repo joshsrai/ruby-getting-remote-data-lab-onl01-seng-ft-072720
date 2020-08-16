@@ -20,6 +20,7 @@ end
       response = JSON.parse(self.get_response_body)
   response.collect do |response|
     end
+    return
   end
 
 end
