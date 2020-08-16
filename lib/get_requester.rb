@@ -18,7 +18,8 @@ end
 
  def parse_json
       response = JSON.parse(self.get_response_body)
-    end
+  # response.collect do |response|
+  #   end
   end
 
 end
